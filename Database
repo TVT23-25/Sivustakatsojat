@@ -1,0 +1,44 @@
+CREATE DATABASE 'Sivustaseuraajat'
+USE sivustaseuraajat;
+
+CREATE TABLE customer (
+    email VARCHAR(100) PRIMARY KEY,
+    fname VARCHAR(50),
+    lname VARCHAR(50),
+    pw VARCHAR(255) -- Salasanan tiiviste
+);
+
+CREATE TABLE groups (
+    group_id SERIAL PRIMARY KEY,
+    groupname VARCHAR(100),
+    creator_email VARCHAR(100) REFERENCES customer(email)
+	status VARCHAR(20)
+);
+
+CREATE TABLE group_members (
+    group_id INT REFERENCES groups(group_id),
+    email VARCHAR(100) REFERENCES customer(email),
+	status VARCHAR(20),
+    PRIMARY KEY (group_id, email)
+);
+
+CREATE TABLE group_join_requests (
+    request_id SERIAL PRIMARY KEY,
+    group_id INT REFERENCES groups(group_id),
+    email VARCHAR(100) REFERENCES customer(email)
+	status VARCHAR(20)
+);
+
+CREATE TABLE group_chat (
+    chat_id SERIAL PRIMARY KEY,
+    group_id INT REFERENCES groups(group_id),
+    email VARCHAR(100) REFERENCES customer(email),
+    message TEXT,
+    sent_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE favorites (
+    email VARCHAR(100) REFERENCES customer(email),
+    movie_id INT,
+    PRIMARY KEY (email, movie_id)
+);
