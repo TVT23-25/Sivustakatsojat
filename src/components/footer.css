@@ -1,0 +1,9 @@
+footer{
+display: inherit;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 15em;
+background-color: #003d7d;
+color: #9bcbff;
+}
