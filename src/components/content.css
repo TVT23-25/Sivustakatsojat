@@ -1,0 +1,57 @@
+.content{
+padding: 2em;
+margin-left: 4em;
+margin-right: 4em;
+}
+
+.image-style{
+text-align: center;
+margin: auto;
+background-image: url(https://fastly.picsum.photos/id/639/200/200.jpg?hmac=us3unt6qN8__M3Xg5qmnoqGeKDyMlYUz0VgEANZ7wuo);
+background-repeat: no-repeat;
+height: 15em;
+background-position: center;
+}
+
+
+/* ---------------- Flex-container model CSS ------------------ */
+@media only screen and (min-width:600px){
+    *,*::before,*::after{ box-sizing: border-box; }
+}
+    
+
+.flex-container-sample{display:flex;flex-direction:column;margin-top: 2em;}
+
+.content-section{flex: 34.33%;padding: 1em;}
+
+.content-section div{
+margin: var(--general-margin);
+border: 1px solid var(--grey-foreground-color);
+}
+
+.content-section h3{
+margin: var(--general-margin);
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+}
+
+.content-section p{margin: var(--general-margin);line-height: 1.5;}
+
+.content-section div img{
+height: 500px;
+width: 100%;
+object-fit: cover;
+object-position: center;
+}
+
+@media only screen and (max-width:1200px){
+#content-section{
+flex-direction: row;
+}
+        
+.content-section{flex:50%;}  div img{height:350px;} 
+.content-section{flex:50%;} .content-section div img{height:350px;}
+}
+
+@media only screen and (max-width:992px){ div#content section{flex-direction: column;}} 
+        
