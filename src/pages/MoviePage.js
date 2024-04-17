@@ -1,44 +1,47 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import MovieSearch from '../components/MovieComponents/MovieSearch';
-import Filter from '../components/MovieComponents/Filter';
+import React, { useState, useEffect } from 'react'
+import { searchMovies, getHarryPotterAndJaneAustenMovies } from '../api'
+import MovieSearch from '../components/MovieComponents/MovieSearch'
+import Filter from '../components/MovieComponents/Filter'
+import MovieModal from '../components/Modals/MovieDetail'
 
 const MoviePage = () => {
-  const [mediaData, setMediaData] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [filter, setFilter] = useState('');
+  const [mediaData, setMediaData] = useState([])
+  const [searchTerm, setSearchTerm] = useState('')
+  const [filter, setFilter] = useState('')
+  const [selectedMovie, setSelectedMovie] = useState(null)
 
   const handleSearch = (term) => {
-    setSearchTerm(term);
-  };
+    // Tarkistetaan, onko hakutermi joko "harry potter" tai "jane austen"
+    if (term.toLowerCase() === 'harry potter' || term.toLowerCase() === 'jane austen') {
+      setSearchTerm(term);
+    } else {
+      // Jos hakutermi ei ole "harry potter" tai "jane austen", nollataan hakutermi ja näytetään ainoastaan valmiiksi haetut elokuvat
+      setSearchTerm('');
+    }
+  }
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const initialData = await getHarryPotterAndJaneAustenMovies()
+        setMediaData(initialData)
+      } catch (error) {
+        console.error('Error fetching initial data:', error)
+      }
+    }
+    fetchData();
+  }, []);
 
   useEffect(() => {
     if (searchTerm) {
-      getSearchResults(searchTerm);
-    } else {
-      getTrendingMediaData("movie");
+      searchMovies(searchTerm)
+        .then(results => {
+          console.log('Search results:', results)
+          setMediaData(results);
+        })
+        .catch(error => console.error('Error searching movies:', error))
     }
   }, [searchTerm]);
-
-  async function getTrendingMediaData(type) {
-    try {
-      const apiKey = '472624d51a1f4be9ba4953b610d352aa';
-      let resp = await axios.get(`https://api.themoviedb.org/3/trending/${type}/day?api_key=${apiKey}&language=en-US`);
-      setMediaData(resp.data.results);
-    } catch (e) {
-      console.error('Error fetching media data:', e);
-    }
-  }
-
-  async function getSearchResults(term) {
-    try {
-      const apiKey = '472624d51a1f4be9ba4953b610d352aa';
-      let resp = await axios.get(`https://api.themoviedb.org/3/search/multi?api_key=${apiKey}&language=en-US&query=${term}`);
-      setMediaData(resp.data.results);
-    } catch (e) {
-      console.error('Error fetching search results:', e);
-    }
-  }
 
   useEffect(() => {
     // Filter and search logic
@@ -55,16 +58,22 @@ const MoviePage = () => {
       }
       return true;
     });
- 
-    setFilteredMediaData(filteredData);
-  }, [filter, mediaData]);
+    setFilteredMediaData(filteredData)
+  }, [filter, mediaData])
 
-  
-  const [filteredMediaData, setFilteredMediaData] = useState([]);
+  const [filteredMediaData, setFilteredMediaData] = useState([])
 
   const handleFilter = (filterType) => {
-    setFilter(filterType);
-  };
+    setFilter(filterType)
+  }
+
+  const openModal = (movie) => {
+    setSelectedMovie(movie)
+  }
+
+  const closeModal = () => {
+    setSelectedMovie(null)
+  }
 
   return (
     <div className="MoviePageContainer">
@@ -73,15 +82,16 @@ const MoviePage = () => {
       <Filter onFilter={handleFilter} />
       <ul className="MovieList">
         {filteredMediaData.map(media => (
-          <li key={media.id} className="MovieItem">
+          <li key={media.id} className="MovieItem" onClick={() => openModal(media)}> 
             <img src={`https://image.tmdb.org/t/p/w154${media.poster_path}`} alt={media.title || media.name} />
             <p>{media.title || media.name}</p>
           </li>
         ))}
       </ul>
+      {selectedMovie && <MovieModal movie={selectedMovie} closeModal={closeModal} />}
+
     </div>
-  );
-};
+  )
+}
 
-export default MoviePage;
-
+export default MoviePage
