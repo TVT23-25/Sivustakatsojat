@@ -1,0 +1,28 @@
+.MoviePageContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.MovieList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.MovieList li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: calc(50% - 20px); /* 50% width with 20px margin-right */
+  padding: 10px;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+}
+
+/* Clearfix for every 2 items */
+@media (max-width: 767px) {
+  .MovieList li:nth-child(2n) {
+    margin-right: 0;
+  }
+}
