@@ -8,7 +8,7 @@ const app = express();
 const cors = require('cors');  
 
 //Changed express pointing to "public" -folder
-app.use(express.static('public'));
+app.use(express.json('public'));
 app.use(cors({
   origin: '*', 
   methods: ['GET', 'POST', 'DELETE'], 
