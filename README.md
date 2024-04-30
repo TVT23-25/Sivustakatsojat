@@ -6,6 +6,7 @@ Projektissa loimme oman palvelimen ja tietokannan, jotka mahdollistivat sovelluk
 
 ![Etusivu_ss](https://github.com/TVT23-25/Group_25/assets/149469582/3ff995f1-14e4-4925-939a-362a7ec1f4a6)
 ![Elokuvanhakeminen_ss](https://github.com/TVT23-25/Group_25/assets/149469582/7e3d3928-ad8b-4181-98d5-ede3a670ab0c)
+Kuvia valmiista verkkosivusta.
 
 
 ## Projektin idea
