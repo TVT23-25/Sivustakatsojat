@@ -1,18 +1,32 @@
+p{padding-bottom:1em;}
+
 .content {
-    padding: 2em;
-    margin-left: 4em;
-    margin-right: 4em;
-  }
+padding: 1em;
+margin-left: 4em;
+margin-right: 4em;
+}
+
+.image-wrap{
+text-align: center;
+margin: auto;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 2em;
+}
   
-  .image-style {
-    text-align: center;
-    margin: auto;
-    background-image: url(https://fastly.picsum.photos/id/639/200/200.jpg?hmac=us3unt6qN8__M3Xg5qmnoqGeKDyMlYUz0VgEANZ7wuo);
-    background-repeat: no-repeat;
-    height: 15em;
-    background-position: center;
-  }
-  
+.image-style {
+text-align: center;
+margin: auto;
+background-image: url(https://fastly.picsum.photos/id/639/200/200.jpg?hmac=us3unt6qN8__M3Xg5qmnoqGeKDyMlYUz0VgEANZ7wuo);
+background-repeat: no-repeat;
+height: 15em;
+background-position: center;
+}
+
+#Sivustaseuraaja_banner{
+max-height: 100%;
+width:100%;
+}  
   /* ---------------- Flex-container model CSS ------------------ */
   @media only screen and (min-width: 600px) {
     *, *::before, *::after {
@@ -64,7 +78,7 @@
     }
   
     .content-section div img {
-      height: 350px;
+      height: auto;
     }
   
     .content-section {
@@ -72,7 +86,7 @@
     }
   
     .content-section div img {
-      height: 350px;
+      height: auto;
     }
   }
   

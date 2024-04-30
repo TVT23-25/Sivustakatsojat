@@ -23,9 +23,9 @@ Käyttämämme koodikielet ovat JavaScript, HTML ja CSS. Sovelluksen käyttölii
 ![ER-kaavio 4 1](https://github.com/TVT23-25/Group_25/assets/149469582/ea76b9eb-6261-41cc-ab26-66a0cacdd212)
 Kuva ER-kaaviosta.
  
-## Vastuualueet (alustava)
+## Vastuualueet
 
-**Jenna Manninen:**	Ryhmänsivun luonti, käyttäjän lisäys ja poisto sekä UI-pohja Reactilla 
+**Jenna Manninen:** UI-pohja Reactilla, koodin yhdistäminen ja lisäys Renderiin
 **Maiju Alastalo:**	Suodatettu haku (elokuvat ja sarjat), README-tiedosto
 **Jenna Harle:**	PostGRE-tietokannan luonti, README-tiedosto 
 **Laura Varvelin:**	ER-kaavio, testaus (esim. Chai, Mocha) 
