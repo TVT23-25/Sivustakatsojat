@@ -17,6 +17,8 @@ Toteutus
 Projekti on rakennettu React-sovelluksena, jota on kehitetty Visual Studio Coden avulla. Tietokantana käytämme PostgreSQL:ää. Palvelinpuolen olemme toteuttaneet Node.js-alustalla.
 Käyttämämme koodikielet ovat JavaScript, HTML ja CSS. Sovelluksen käyttöliittymän suunnitteluun olemme käyttäneet (Tähän ohjelma mitä käytetty) ja tietokannan ER-kaavion luontiin (tähän sovelluksen nimi käytetty). 
 
+![ER-kaavio 3 1](https://github.com/TVT23-25/Group_25/assets/149469582/421c4337-0606-447b-a91a-fac7f6609d89)
+
 TÄHÄN ER-KAAVIOSTA KUVA
  
 ## Vastuualueet (alustava)
