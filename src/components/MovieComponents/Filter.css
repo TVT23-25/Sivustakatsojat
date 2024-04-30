@@ -1,0 +1,12 @@
+.Filter {
+  margin-bottom: 20px;
+}
+
+.Filter select {
+  padding: 5px;
+  font-size: 16px;
+  color: #c2295c; 
+  background-color: #fff; 
+  border: 1px solid #c2295c; 
+  border-radius: 4px; 
+}
