@@ -1,0 +1,40 @@
+.sign-in-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url('https://source.unsplash.com/random');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Muutetaan tekstin väri valkoiseksi */
+    font-family: Arial, sans-serif; /* Muutetaan fontti Arialiksi */
+  }
+  
+  .sign-in-container h2 {
+    font-size: 36px; /* Kasvatetaan otsikon kokoa */
+    margin-bottom: 30px; /* Lisätään enemmän tilaa otsikon ja lomakkeen välille */
+  }
+  
+  .sign-in-container input {
+    width: calc(100% - 20px); /* Vähennetään input-elementtien leveydestä marginaalin verran */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px; /* Pyöristetään input-elementtien reunat enemmän */
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8); /* Lisätään läpinäkyvä tausta input-elementeille */
+  }
+  
+  .sign-in-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .sign-in-container button:hover {
+    background-color: #0056b3;
+  }

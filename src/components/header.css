@@ -1,0 +1,24 @@
+.header {
+    align-items: center;
+    height: auto;
+    margin-top: 0;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .header h3 {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: #e71562; 
+    margin-bottom: 0;
+  }
+  
+  .header a {
+    color: #ff5e9b; 
+    font-size: 1em;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    color: #ff3d7c; 
+    font-weight: bold;
+  }

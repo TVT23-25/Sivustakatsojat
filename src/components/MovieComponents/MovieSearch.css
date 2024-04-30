@@ -1,0 +1,24 @@
+.MovieSearch {
+  margin-bottom: 20px;
+}
+
+.MovieSearch input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ff7bac; 
+  border-radius: 4px;
+}
+
+.MovieSearch button {
+  padding: 8px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #ff5e9b; 
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.MovieSearch button:hover {
+  background-color: #ff3d7c; 
+}
