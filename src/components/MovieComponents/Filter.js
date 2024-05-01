@@ -14,9 +14,9 @@ const Filter = ({ onFilter }) => {
   return (
     <div>
       <h2>Suodattimet</h2>
-      <button onClick={() => handleClick('suosituimmat')}>Suosituimmat</button>
-      <button onClick={() => handleClick('uusimmat')}>Uusimmat</button>
-      <button onClick={() => handleClick('vanhimmat')}>Vanhimmat</button>
+      <button className='input-border2' onClick={() => handleClick('suosituimmat')}>Suosituimmat</button>
+      <button className='input-border2' onClick={() => handleClick('uusimmat')}>Uusimmat</button>
+      <button className='input-border2' onClick={() => handleClick('vanhimmat')}>Vanhimmat</button>
     </div>
   );
 };

@@ -25,9 +25,9 @@ function DeleteAccount() {
     <div>
       <h2>DeleteAccount</h2>
       <form onSubmit={handleDeleteAccount}>
-        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
-        <input type="password" value={pw} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
-        <button type="submit">DeleteAccount</button>
+        <input type="email" className='input-border' value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
+        <input type="password" className='input-border' value={pw} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
+        <button type="submit"className='button-color'>DeleteAccount</button>
       </form>
     </div>
   );

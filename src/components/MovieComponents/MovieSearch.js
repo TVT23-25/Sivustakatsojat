@@ -14,12 +14,12 @@ const MovieSearch = ({ onSearch }) => {
   return (
     <div>
       <input
-        type="text"
+        type="text" className='input-border'
         placeholder="Kirjoita hakusana"
         value={searchText}
         onChange={handleChange}
       />
-      <button onClick={handleClick}>Hae</button>
+      <button className='button-color' onClick={handleClick}>Hae</button>
     </div>
   );
 };

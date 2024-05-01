@@ -1,73 +1,91 @@
 
 * {
-  margin: 0;
-  box-sizing: border-box;
+margin: 0;
+box-sizing: border-box;
 }
 
 .App {
-  text-align: center;
-  color: #ff7bac; /* Vaaleanpunainen */
+text-align: center;
+color: #ff7bac; /* Vaaleanpunainen */
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+height: 40vmin;
+pointer-events: none;
+}
+
+.information{
+padding-left: 5em;
+padding-right: 5em;
+}
+
+.button-color{background-color: #e3429c;color: white;}
+.input-border{
+border-color: #c41f8a7a;
+background-color: #f6cde2;
+color: #a22872;
+}
+
+.input-border2{
+border-color: #ff7bac;
+background-color: #cc3389;
+color: #fff;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo {
+animation: App-logo-spin infinite 20s linear;
+}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+background-color: #282c34;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
 }
 
 .App-link {
-  color: #61dafb;
+color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+from {
+   transform: rotate(0deg);
+ }
+to {
+   transform: rotate(360deg);
+ }
 }
 
 .MovieList {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+list-style-type: none;
+padding: 0;
+margin-top: 2em;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
 }
 
 .MovieItem {
-  width: calc(33.33% - 20px);
-  margin: 0 10px 20px 0;
-  padding: 10px;
-  background-color: #f0f0f0;
-  box-sizing: border-box;
+width: calc(33.33% - 20px);
+margin: 0 10px 20px 0;
+padding: 10px;
+background-color: #f0f0f0;
+box-sizing: border-box;
 }
 
 @media only screen and (min-width: 600px) {
-  .MovieItem {
-  width: calc(16.666% - 20px); 
-  }
+.MovieItem {
+width: calc(16.666% - 20px); 
+}
 }
 
 .MovieItem img {
-  max-width: 100%;
-  height: auto;
+max-width: 100%;
+height: auto;
 }

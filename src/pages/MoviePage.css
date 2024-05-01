@@ -1,7 +1,8 @@
 .MoviePageContainer {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+margin-top: 1em;
 }
 
 .MovieList {
