@@ -18,7 +18,7 @@ Sivustomme tarjoaa kokoelmaa elokuvista, jotka pohjautuvat kirjoihin eri aihealu
 
 Toteutus
 Projekti on rakennettu React-sovelluksena, jota on kehitetty Visual Studio Coden avulla. Tietokantana käytämme PostgreSQL:ää. Palvelinpuolen olemme toteuttaneet Node.js-alustalla.
-Käyttämämme koodikielet ovat JavaScript, HTML ja CSS. Sovelluksen käyttöliittymän suunnitteluun olemme käyttäneet (Tähän ohjelma mitä käytetty) ja tietokannan ER-kaavion luontiin (tähän sovelluksen nimi käytetty). 
+Käyttämämme koodikielet ovat JavaScript, HTML ja CSS. Sovelluksen käyttöliittymän suunnitteluun olemme käyttäneet (Tähän ohjelma mitä käytetty) ja tietokannan ER-kaavion luontiin postgreSQL:än pgAdmin työkalua. 
 
 ![ER-kaavio 4 1](https://github.com/TVT23-25/Group_25/assets/149469582/ea76b9eb-6261-41cc-ab26-66a0cacdd212)
 Kuva ER-kaaviosta.
