@@ -25,11 +25,11 @@ Kuva ER-kaaviosta.
  
 ## Vastuualueet
 
-**Jenna Manninen:** UI-pohja Reactilla, koodin yhdistäminen ja lisäys Renderiin
-**Maiju Alastalo:**	Suodatettu haku (elokuvat ja sarjat), README-tiedosto
-**Jenna Harle:**	PostGRE-tietokannan luonti, README-tiedosto 
-**Laura Varvelin:**	ER-kaavio, testaus (esim. Chai, Mocha) 
-**Sami Petäjärvi:**	Käyttäjän luonti, kirjautuminen ja poistaminen sekä REST-dokumentaatio
+**Jenna Manninen:** UI-pohja Reactilla, koodin yhdistäminen ja lisäys Renderiin, Full stack
+**Maiju Alastalo:**	Suodatettu haku (elokuvat ja sarjat), README-tiedosto, Full stack
+**Jenna Harle:**	PostGRE-tietokannan luonti, README-tiedosto, Frontend (elokuvasovellus)
+**Laura Varvelin:**	ER-kaavio, testaus (esim. Chai, Mocha), Frontend (elokuvasovellus)
+**Sami Petäjärvi:**	Käyttäjän luonti, kirjautuminen ja poistaminen sekä REST-dokumentaatio, Backend
 
 
 
