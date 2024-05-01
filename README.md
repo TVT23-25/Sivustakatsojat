@@ -4,8 +4,8 @@
 Elokuvasovellus on toteutettu osana Oulun ammattikorkeakoulun Web –ohjelmoinnin sovellusprojekti -kurssia. Projektin toimeksiantona oli luoda sivusto elokuvaharrastelijoille. Keskeisenä tavoitteena oli tarjota kattava alusta, joka yhdistää kirjoihin perustuvat elokuvat intohimoisten elokuvaharrastelijoiden keskuudessa. Sovelluksen kehittämisen lähtökohtana oli hyödyntää avoimen datan tarjoamaa pääsyä laajaan elokuvatietokantaan. Päädyimme käyttämään projektissa IMDb:tä avoimen datan lähteenä.
 Projektissa loimme oman palvelimen ja tietokannan, jotka mahdollistivat sovelluksen oman datan hallinnan. Yhdistämällä avoimen datan ja omat tekniset ratkaisut pyrimme luomaan kiinnostavan ympäristön kaikille sovelluksen käyttäjille. 
 
-![Etusivu_ss](https://github.com/TVT23-25/Group_25/assets/149469582/3ff995f1-14e4-4925-939a-362a7ec1f4a6)
-![Elokuvanhakeminen_ss](https://github.com/TVT23-25/Group_25/assets/149469582/7e3d3928-ad8b-4181-98d5-ede3a670ab0c)
+![Etusivu](https://github.com/TVT23-25/Group_25/assets/149469582/fbece768-6672-4387-80e6-90eeeebf9a84)
+![Elokuvahakemisto](https://github.com/TVT23-25/Group_25/assets/149469582/ec44ba44-10bc-447f-acd0-931bb38c31a7)
 Kuvia valmiista verkkosivusta.
 
 
