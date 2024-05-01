@@ -37,5 +37,5 @@ Kuva ER-kaaviosta.
 [link text] (Linkki esittelyvideoon )
 
 ## Linkki sovellukseen 
-[link text](Linkki sovellukseen)
+https://publitest.onrender.com/
 
