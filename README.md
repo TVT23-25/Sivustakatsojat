@@ -24,14 +24,20 @@ Käyttämämme koodikielet ovat JavaScript, HTML ja CSS. Sovelluksen käyttölii
 Kuva ER-kaaviosta.
 
 Linkki [REST-dokumentaatioon](https://documenter.getpostman.com/view/34667260/2sA3JFB4Wi)
+
+Kuvia UI -suunnittelusta Wireframella:
+![login](https://github.com/TVT23-25/Group_25/assets/145854303/fdf19127-34a8-4e4a-8aeb-826c3e4b12d7)
+![index](https://github.com/TVT23-25/Group_25/assets/145854303/e3722987-4a86-482a-8439-4d223efd3d19)
+![menu](https://github.com/TVT23-25/Group_25/assets/145854303/d0278178-0043-47ad-9534-b92d87a3e034)
  
 ## Vastuualueet
 
-**Jenna Manninen:** UI-pohja Reactilla, koodin yhdistäminen ja lisäys Renderiin, Full stack
+**Jenna Manninen:** UI-pohja Reactilla, Wireframe-kuvat, koodin yhdistäminen ja lisäys Renderiin, Full stack
 **Maiju Alastalo:**	Suodatettu haku (elokuvat ja sarjat), README-tiedosto, Full stack
 **Jenna Harle:**	PostGRE-tietokannan luonti, README-tiedosto, Frontend (elokuvasovellus)
 **Laura Varvelin:**	ER-kaavio, testaus (esim. Chai, Mocha), Frontend (elokuvasovellus)
-**Sami Petäjärvi:**	Käyttäjän luonti, kirjautuminen ja poistaminen sekä REST-dokumentaatio, Backend
+**Sami Petäjärvi:**	Käyttäjän luonti, kirjautuminen ja poistaminen sekä REST-dokument
+aatio, Backend
 
 
 
