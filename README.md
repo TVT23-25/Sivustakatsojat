@@ -44,12 +44,15 @@ aatio, Backend
 
 
 ## Esittelyvideo
-Käyttöliittymä, suodatettu haku:
+Käyttöliittymä:
 https://oamk-my.sharepoint.com/:v:/r/personal/t1pesa02_students_oamk_fi/Documents/Sivustakatsojat%20tiedostoja/ui_haku_esittely.mkv?csf=1&web=1&e=zDYpDC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Emme kerenneet tehdä toiminnallisuutta kirjautumisen päälle, mutta kirjautumista kuitenkin testattiin:
 https://oamk-my.sharepoint.com/:v:/r/personal/t1pesa02_students_oamk_fi/Documents/Sivustakatsojat%20tiedostoja/Kirjautuminen.mkv?csf=1&web=1&e=AA3IFu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+Suodatettu haku on rajattuna kahteen kirjoihin perustuviin elokuviin. Hakua ei saatu kuitenkaan liitettyä lopulliseen live-versioon. 
+Voit tarkastella toiminnallisuuden toimimista alla olevasta linkistä: 
+https://oamk-my.sharepoint.com/personal/t1pesa02_students_oamk_fi/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Ft1pesa02%5Fstudents%5Foamk%5Ffi%2FDocuments%2FSivustakatsojat%20tiedostoja%2FSuodattu%5Fhaku
 
 ## Linkki sovellukseen 
 https://publitest.onrender.com/
