@@ -30,15 +30,14 @@ Kuvia UI -suunnittelusta Wireframella:
 ![login](https://github.com/TVT23-25/Group_25/assets/145854303/fdf19127-34a8-4e4a-8aeb-826c3e4b12d7)
 ![menu](https://github.com/TVT23-25/Group_25/assets/145854303/d0278178-0043-47ad-9534-b92d87a3e034)
 
-Projektinhallinnan työkaluna hyödynsimme Trelloa.
-Linkki: https://trello.com/b/HQcG9bSt
+Projektinhallinnan työkaluna hyödynsimme Trelloa: https://trello.com/b/HQcG9bSt
  
 ## Vastuualueet
 
 **Jenna Manninen:** UI-pohja Reactilla, Wireframe-kuvat, koodin yhdistäminen ja lisäys Renderiin, Full stack
 **Maiju Alastalo:**	Suodatettu haku (elokuvat ja sarjat), README-tiedosto, Full stack
 **Jenna Harle:**	PostGRE-tietokannan luonti, README-tiedosto, Frontend (elokuvasovellus)
-**Laura Varvelin:**	ER-kaavio, testaus (esim. Chai, Mocha), Frontend (elokuvasovellus)
+**Laura Varvelin:**	ER-kaavio, testaus, Frontend (elokuvasovellus)
 **Sami Petäjärvi:**	Käyttäjän luonti, kirjautuminen ja poistaminen sekä REST-dokument
 aatio, Backend
 
