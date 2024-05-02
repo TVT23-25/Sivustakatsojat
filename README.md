@@ -36,8 +36,8 @@ Projektinhallinnan työkaluna hyödynsimme Trelloa: https://trello.com/b/HQcG9bS
 
 **Jenna Manninen:** UI-pohja Reactilla, Wireframe-kuvat, koodin yhdistäminen ja lisäys Renderiin, Full stack
 **Maiju Alastalo:**	Suodatettu haku (elokuvat ja sarjat), README-tiedosto, Full stack
-**Jenna Harle:**	PostGRE-tietokannan luonti, README-tiedosto, Frontend (elokuvasovellus)
-**Laura Varvelin:**	ER-kaavio, testaus, Frontend (elokuvasovellus)
+**Jenna Harle:**	PostGRE-tietokannan luonti, README-tiedosto, Frontend
+**Laura Varvelin:**	ER-kaavio, testaus, Frontend
 **Sami Petäjärvi:**	Käyttäjän luonti, kirjautuminen ja poistaminen sekä REST-dokument
 aatio, Backend
 
