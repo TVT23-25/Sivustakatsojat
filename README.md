@@ -46,10 +46,10 @@ aatio, Backend
 
 ## Esittelyvideo
 Käyttöliittymä, suodatettu haku:
-(https://oamk-my.sharepoint.com/personal/t1pesa02_students_oamk_fi/_layouts/15/stream.aspx?id=%2Fpersonal%2Ft1pesa02%5Fstudents%5Foamk%5Ffi%2FDocuments%2FSivustakatsojat%20tiedostoja%2Fui%5Fhaku%5F2%2Emkv&referrer=OneDriveForBusiness&referrerScenario=OpenFile)
+(https://oamk-my.sharepoint.com/:v:/r/personal/t1pesa02_students_oamk_fi/Documents/Sivustakatsojat%20tiedostoja/ui_haku_esittely.mkv?csf=1&web=1&e=zDYpDC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Emme kerenneet tehdä toiminnallisuutta kirjautumisen päälle, mutta kirjautumista kuitenkin testattiin:
-(https://oamk-my.sharepoint.com/:v:/r/personal/t1pesa02_students_oamk_fi/Documents/Sivustakatsojat%20tiedostoja/Kirjautuminen.mkv?csf=1&web=1&e=Adh7oJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+(https://oamk-my.sharepoint.com/:v:/r/personal/t1pesa02_students_oamk_fi/Documents/Sivustakatsojat%20tiedostoja/Kirjautuminen.mkv?csf=1&web=1&e=AA3IFu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ## Linkki sovellukseen 
