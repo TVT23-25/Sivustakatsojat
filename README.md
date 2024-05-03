@@ -52,7 +52,7 @@ https://oamk-my.sharepoint.com/:f:/g/personal/t1pesa02_students_oamk_fi/EgewsaHd
 
 Suodatettu haku on rajattuna kahteen kirjoihin perustuviin elokuviin. Hakua ei saatu kuitenkaan liitettyä lopulliseen live-versioon. 
 Voit tarkastella toiminnallisuuden toimimista alla olevasta linkistä: 
-https://oamk-my.sharepoint.com/:f:/g/personal/t1pesa02_students_oamk_fi/EgewsaHdsxdIuJvvskZZDf4Bu8Qal9awTLscXD0_valSwA?e=WaOkm7
+https://oamk-my.sharepoint.com/personal/t1pesa02_students_oamk_fi/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Ft1pesa02%5Fstudents%5Foamk%5Ffi%2FDocuments%2FSivustakatsojat%20tiedostoja%2FSuodattu%5Fhaku
 
 ## Linkki sovellukseen 
 https://publitest.onrender.com/
